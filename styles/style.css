@@ -291,8 +291,13 @@
   }
 
   .visual-examples__container {
+    grid-column: 1 / -1;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
+  }
+
+  .visual-examples .content-section__title {
+    grid-column: 1 / -1;
   }
 
   .image__sunset {
@@ -379,13 +384,5 @@
 
   .footer {
     min-block-size: 768px;
-  }
-
-  .visual-examples__container {
-    grid-column: 1 / -1;
-  }
-
-  .visual-examples .content-section__title {
-    grid-column: 1 / -1;
   }
 }

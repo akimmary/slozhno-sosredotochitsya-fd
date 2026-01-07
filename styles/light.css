@@ -1,28 +1,27 @@
-
-
-  :root.theme-light {
-      --bg-image: url('../images/cover-image-light.png');
-    --bg-color: #FFF1F7;
-    --accent-color: #FF8DCB;
-    --font-accent-color: #FFC2E6;
-    --font-title-color: #353430;
-    --font-nav-color: #353430;
-    --color-blue: #353430;
-    --text-color: #353430;
-   --menu-button-hover: rgba(50, 49, 45, 0.4);
-  }
+:root.theme-light {
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --font-accent-color: #ffc2e6;
+  --font-title-color: #353430;
+  --font-nav-color: #353430;
+  --color-blue: #353430;
+  --text-color: #353430;
+  --menu-button-hover: rgb(50 49 45 / 0.4);
+}
 
 @media (prefers-color-scheme: light) {
+
   :root {
-    --bg-image: url('../images/cover-image-light.png');
-    --bg-color: #FFF1F7;
-    --accent-color: #FF8DCB;
-    --font-accent-color: #FFC2E6;
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --font-accent-color: #ffc2e6;
     --font-title-color: #353430;
     --font-nav-color: #353430;
     --color-blue: #353430;
     --text-color: #353430;
-    --menu-button-hover: rgba(50, 49, 45, 0.4);
+    --menu-button-hover: rgb(50 49 45 / 0.4);
   }
 
   .header__rec {
@@ -31,8 +30,9 @@
 }
 
 @media (prefers-color-scheme: light) and (min-width: 1024px) {
+
   .footer__logo {
-    text-shadow: 2px 2px 0 #FF0070;
+    text-shadow: 2px 2px 0 #ff0070;
   }
 }
 
@@ -41,7 +41,8 @@
 }
 
 @media (min-width: 1024px) {
+
   .theme-light .footer__logo {
-    text-shadow: 2px 2px 0  #FF0070;
+    text-shadow: 2px 2px 0 #ff0070;
   }
 }

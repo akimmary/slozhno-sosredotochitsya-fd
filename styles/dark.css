@@ -1,14 +1,13 @@
-
 :root.theme-dark {
-  --bg-image: url('../images/cover-image-dark.png');
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --accent-color: #FF0070;
-  --font-title-color: #FF0070;
-  --font-accent-color: #DB00FF;
-  --font-nav-color: #FF0070;
+  --accent-color: #ff0070;
+  --font-title-color: #ff0070;
+  --font-accent-color: #db00ff;
+  --font-nav-color: #ff0070;
   --color-blue: #000028;
-  --text-color: #F1B2CE;
-  --menu-button-hover: rgba(255, 0, 112, 0.4);
+  --text-color: #f1b2ce;
+  --menu-button-hover: rgb(255 0 112 / 0.4);
 }
 
 .theme-dark .header__rec {

@@ -1,12 +1,47 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
-:root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+
+  :root.theme-light {
+      --bg-image: url('../images/cover-image-light.png');
+    --bg-color: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --font-accent-color: #FFC2E6;
+    --font-title-color: #353430;
+    --font-nav-color: #353430;
+    --color-blue: #353430;
+    --text-color: #353430;
+   --menu-button-hover: rgba(50, 49, 45, 0.4);
+  }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: url('../images/cover-image-light.png');
+    --bg-color: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --font-accent-color: #FFC2E6;
+    --font-title-color: #353430;
+    --font-nav-color: #353430;
+    --color-blue: #353430;
+    --text-color: #353430;
+    --menu-button-hover: rgba(50, 49, 45, 0.4);
+  }
+
+  .header__rec {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) and (min-width: 1024px) {
+  .footer__logo {
+    text-shadow: 2px 2px 0 #FF0070;
+  }
+}
+
+.theme-light .header__rec {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .theme-light .footer__logo {
+    text-shadow: 2px 2px 0  #FF0070;
+  }
 }
